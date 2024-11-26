@@ -1,11 +1,15 @@
+:root{
+    --brand-color:#2196F3;
+    --royal-color:#2F303A;
+}
 .button{
-    background-color:#2196F3; ;
+    background-color: var(--brand-color)
 }
 footer{
-    background-color:#2F303A;;
+    background-color:var(--royal-color)
 }
 section{
-    background-color:  #2F303A;;
+    background-color: var(--royal-color)
 }
 h1{
     color:#FFFFFF;
@@ -31,7 +35,7 @@ ul{
 }
 a{
     text-decoration: none;
-    color:#212121;
+    color: var(--royal-color)
         font-size: 14px;
         font-weight: 500;
         line-height: 16.41px;
@@ -41,10 +45,10 @@ a{
         text-decoration-skip-ink: none;
 }
 header>ul>li>a:hover{
-    color:#2196F3;
+    color:var(--brand-color)
 }
 main>ul>button:hover{
-    background-color: #2196F3;
+    background-color:var(--brand-color)
     color: #FFFFFF;
 }
 .logo{
