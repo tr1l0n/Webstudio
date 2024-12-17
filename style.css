@@ -2,30 +2,27 @@
     --brand-color:#2196F3;
     --royal-color:#2F303A;
 }
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 .button{
     background-color: var(--brand-color)
 }
-footer{
+.background-color{
     background-color:var(--royal-color)
 }
-section{
-    background-color: var(--royal-color)
-}
-h1{
+
+.item-1{
     color:#FFFFFF;
 }
-header li{
+.nav-site{
     color: black;
-}
-footer li{
-    color: white;
-}
-
-.fire{
-    color: black;
-}
-body>header>a{
     font-family: "Raleway";
+}
+.bottom-site{
+    color: white;
 }
 body{
     font-family: "Roboto";
@@ -36,21 +33,11 @@ ul{
 a{
     text-decoration: none;
     color: var(--royal-color)
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 16.41px;
-        letter-spacing: 0.02em;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
 }
-header>ul>li>a:hover{
+.nav-site:hover{
     color:var(--brand-color)
 }
-main>ul>button:hover{
-    background-color:var(--brand-color)
-    color: #FFFFFF;
-}
+
 .logo{
         font-size: 26px;
         font-weight: 700;
@@ -60,7 +47,7 @@ main>ul>button:hover{
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
 }
-h1{
+.item-1{
         font-size: 44px;
         font-weight: 900;
         line-height: 60px;
@@ -78,7 +65,7 @@ h1{
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
 }
-section>ul>li>h2{
+.item-2{
         font-size: 14px;
         font-weight: 700;
         line-height: 16.41px;
@@ -87,7 +74,7 @@ section>ul>li>h2{
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
 }
-main>ul>li>p{
+.small-info{
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
@@ -114,7 +101,7 @@ main>ul>li>p{
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
 }
-h3{
+.names{
         font-size: 16px;
         font-weight: 500;
         line-height: 18.75px;
