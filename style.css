@@ -7,6 +7,32 @@
     padding: 0 15px;
     margin: 0 auto;
 }
+header{
+    display: flex;
+    align-items: center;
+}
+.nav-site-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px   ;
+}
+.nav-site-extra{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px   ;
+}
+.list-services{
+    display: flex;
+    justify-content: space-around;
+}
+.what-we-doing{
+    display: flex;
+    justify-content: space-between;
+}
+.our-team{
+    display: flex;
+    justify-content: space-between;
+}
 .button{
     background-color: var(--brand-color)
 }
@@ -46,6 +72,20 @@ a{
         text-align: left;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
+}
+.logo-bottom{
+    font-size: 26px;
+        font-weight: 700;
+        line-height: 30.52px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white;
+}
+footer{
+    display: flex;
+    flex-direction: column;
 }
 .item-1{
         font-size: 44px;
@@ -138,4 +178,12 @@ a{
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         color: #757575;
+}
+.nav-page{
+    display: flex;
+    justify-content: center;
+}
+.button-services{
+    display: flex;
+    justify-content: center;
 }
