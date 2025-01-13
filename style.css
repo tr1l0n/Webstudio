@@ -37,9 +37,39 @@ header {
 .list-services {
     display: flex;
     justify-content: space-around;
-    padding-top: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-
+.li-list-services{
+    width: 270px;
+    text-align: center;
+    pad: 20px;
+}
+.li-list-services::before{
+    content:"" ;
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto 10px;
+}
+.li-list-services:nth-child(1)::before{
+    background-image: url(./img/anthena.png);
+    background-repeat: no-repeat;
+}
+.li-list-services:nth-child(2)::before{
+    background-image: url(./img/clock.png);
+    background-repeat: no-repeat;
+}
+.li-list-services:nth-child(3)::before{
+    background-image: url(./img/graphics.png);
+    background-repeat: no-repeat;
+}
+.li-list-services:nth-child(4)::before{
+    background-image: url(./img/astronaut.png);
+    background-repeat: no-repeat;
+}
 .what-we-doing {
     padding-top: 30px;
     display: flex;
@@ -148,8 +178,8 @@ footer {
     height: 50px;
     border-radius: 4px;
     font-family: "Roboto";
+    border: 1px solid transparent;
 }
-
 .item-2 {
     font-size: 14px;
     font-weight: 700;
@@ -276,6 +306,7 @@ footer {
 .main-title{
     width: 2000px;
     height: 600px;
+    background-image: url(./img/peopleworking.png);
 }
 .title{
     display: flex;
