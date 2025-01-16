@@ -306,7 +306,7 @@ footer {
 .main-title{
     width: 2000px;
     height: 600px;
-    background-image: url(./img/peopleworking.png);
+    background-image: url(./img/peopleworking.png)
 }
 .title{
     display: flex;
@@ -322,6 +322,7 @@ footer {
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.03em;
+    box-shadow: 0px 2px 0.1px 0.1px(gray);
 }
 .main-button:hover{
     background-color: var(--brand-color);
