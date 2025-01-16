@@ -316,13 +316,13 @@ footer {
 }
 .main-button{
     background-color: #f5f4fa;
-    border-color: #f5f4fa;
+    border-color: transparent;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.03em;
-    box-shadow: 0px 2px 0.1px 0.1px(gray);
+    box-shadow: 0px 2px 0.1px 0.1px rgba(0,0,0,0.1);
 }
 .main-button:hover{
     background-color: var(--brand-color);
