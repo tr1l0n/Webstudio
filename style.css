@@ -311,8 +311,12 @@ footer {
 .main-title{
     width:100%;
     height: 600px;
-    background-image: url(./img/peopleworking.jpg);
-    background-size: cover;
+    background-image: linear-gradient(to right, 
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+    ),
+    url(./img/peopleworking.jpg);
+    background-repeat: no-repeat;
 }
 .title{
     display: flex;
