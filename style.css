@@ -31,9 +31,15 @@ header {
 .nav-site-extra {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 50px;
 }
-
+.svg-email,.svg-phone{
+    stroke: black;
+}
+.svg-email:hover{
+    stroke: rgba(33, 150, 243, 1);;
+}
 .list-services {
     display: flex;
     justify-content: space-around;
@@ -152,8 +158,24 @@ a {
 }
 
 footer {
+    display: flex; 
+    gap: 75px;
+    align-items: center;
+}
+
+.title-footer-svg{
+    font-family: "Roboto";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 3%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+.list-svg-footer{
     display: flex;
-    flex-direction: column;
+    gap: 15px;
+    align-items: center;
 }
 .main-portfolio{
     height: 1550px;
@@ -170,6 +192,9 @@ footer {
 }
 .phonenumber{
     color: #757575;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .button {
     font-size: 16px;
@@ -212,7 +237,7 @@ footer {
 .title-ourteam{
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 40px;
     padding-bottom: 25px;
 }
 .aboutus {
@@ -236,6 +261,60 @@ footer {
 }
 .card-member{
     background-color: #FFFFFF;
+    height: 428px;
+}
+.div-svg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+.svg-wrapper{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.svg-wrapper:hover{
+    border-radius: 50%;
+    background-color: #2196F3;
+}
+.svg-profile-icon{
+    stroke: rgba(175, 177, 184, 1);;  
+}
+.clients{
+    height: 370px;
+}
+.title-clients{
+    font-family: "Roboto";
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 3%;
+        text-align: center;
+        padding-top: 50px;
+}
+.list-clients{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.li-list-clients{
+    width: 170px;
+    height: 92px;
+    border: 1px solid rgba(175, 177, 184, 1);
+    border-radius: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.li-list-clients:hover{
+    border: 1px solid rgba(33, 150, 243, 1);
+}
+
+.svg-client{
+    fill: #757575;
 }
 .ourteam {
     font-size: 36px;
@@ -350,4 +429,7 @@ footer {
 }
 .bottom-adress{
     color: #FFFFFF;
+}
+.svg-footer{
+    width: 44px;
 }
