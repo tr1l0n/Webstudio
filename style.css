@@ -2,7 +2,10 @@
     --brand-color: #2196F3;
     --royal-color: #2F303A;
 }
-
+*{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
 .container {
     max-width: 1170px;
     padding: 0 15px;
@@ -45,6 +48,7 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+    padding-top: 100px;
 }
 .li-list-services{
     width: 270px;
@@ -161,8 +165,19 @@ footer {
     display: flex; 
     gap: 75px;
     align-items: center;
+    height: 252px;
+    
 }
-
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.list-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .title-footer-svg{
     font-family: "Roboto";
         font-weight: 700;
@@ -171,6 +186,7 @@ footer {
         letter-spacing: 3%;
         text-transform: uppercase;
         color: #FFFFFF;
+        margin-bottom: 20px;
 }
 .list-svg-footer{
     display: flex;
@@ -396,6 +412,7 @@ footer {
     ),
     url(./img/peopleworking.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .title{
     display: flex;
@@ -412,6 +429,31 @@ footer {
     line-height: 26px;
     letter-spacing: 0.03em;
    
+}
+.div-what-we-doing{
+    position: relative;
+    width: 370px;
+    height: 294px;
+}
+/* .img-what-we-doing{
+    position: relative;
+    z-index: 1;
+} */
+.title-what-we-doing{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    z-index: 2;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 25px;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
 }
 .main-button:hover{
     background-color: var(--brand-color);
