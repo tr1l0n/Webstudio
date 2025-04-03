@@ -114,8 +114,28 @@ header {
     color: black;
     font-family: "Roboto";
     font-weight: 500;
+    position: relative;
 }
-
+.active::after{
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 5px;
+    background-color: rgba(33, 150, 243, 1);
+    border-radius: 2px;
+    top: 45px;
+    left: 2px;
+}
+.active-port::after {
+    content: "";
+    position: absolute;
+    width: 73px;
+    height: 5px;
+    background-color: rgba(33, 150, 243, 1);
+    border-radius: 2px;
+    top: 45px;
+    left: 2px;
+}
 .bottom-site {
     color: white;
 }
