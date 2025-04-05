@@ -586,6 +586,9 @@ footer {
         font-size: 12px;
         color: rgba(117, 117, 117, 1);
 }
+.label-form:focus-within svg{
+        color: #2196F3;
+}
 .form-phone{
     position: absolute;
     left: 40px;
@@ -659,21 +662,24 @@ footer {
 }
 .svg-modal-person{
     position: absolute;
-    top: 105px;
-    left: 50px;
+    top: 30px;
+    left: 10px;
     z-index: 2;
+    color: rgba(33, 33, 33, 1);
 }
 .svg-modal-phone{
     position: absolute;
     z-index: 2;
-    top: 180px;
-    left: 50px;
+    top: 30px;
+    left: 10px;
+    color: rgba(33, 33, 33, 1);
 }
 .svg-modal-email{
     position: absolute;
     z-index: 2;
-    left: 50px;
-    top: 240px;
+    left: 10px;
+    top: 30px;
+    color: rgba(33, 33, 33, 1);
 }
 .foster{
     opacity: 0.6;
