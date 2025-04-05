@@ -38,11 +38,12 @@ header {
     gap: 50px;
 }
 .svg-email,.svg-phone{
-    stroke: black;
+    color: rgba(117, 117, 117, 1);
 }
 .svg-email:hover{
-    stroke: rgba(33, 150, 243, 1);;
+    color: rgba(33, 150, 243, 1);;
 }
+
 .list-services {
     display: flex;
     justify-content: space-around;
@@ -315,10 +316,15 @@ footer {
 .svg-wrapper:hover{
     border-radius: 50%;
     background-color: #2196F3;
+    color: white;
 }
 .svg-profile-icon{
+    padding-left: 10px;
     opacity: 0.6;
-    fill: #757575;
+    color:  #757575;
+}
+.svg-profile-icon:hover{
+    color: white;
 }
 .clients{
     height: 370px;
@@ -331,6 +337,17 @@ footer {
         letter-spacing: 3%;
         text-align: center;
         padding-top: 50px;
+}
+.svg-client{
+    color: rgba(175, 177, 184, 1);
+    width: 170px;
+    height: 92px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.svg-client:hover{
+    color: #2196F3;
+    opacity: 1;
 }
 .list-clients{
     display: flex;
@@ -493,6 +510,7 @@ footer {
 }
 .svg-footer{
     width: 44px;
+
 }
 .back-drop {
     position: fixed;
@@ -531,10 +549,10 @@ footer {
 }
 
 .close{
-    stroke: black;
+    color: black;
 }
 .close:hover{
-    stroke: #2196F3;
+    color: #2196F3;
 }
 .modal-title{
     font-family: "Roboto";
@@ -708,4 +726,17 @@ footer {
     z-index: 2;
     top: 43px;
     left: 520px;
+    color: white;
+}
+.svg-footer-social{
+    color: white;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+.svg-footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.svg-footer:hover{
+    background-color: #2196F3;
 }
