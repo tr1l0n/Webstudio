@@ -504,6 +504,15 @@ footer {
 .item{
     flex-basis: calc(100% - 60px) / 3;
     border: 1px solid #EEEEEE;
+    position: relative;
+
+}
+.item:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.36);
+    
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 2.36);
+    
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 2.42);
 }
 .bottom-adress{
     color: #FFFFFF;
@@ -745,4 +754,24 @@ footer {
 }
 .svg-footer:hover{
     background-color: #2196F3;
+}
+.item-hover{
+    opacity: 0;
+    width: 340px;
+    height: 274px;
+    background-color: rgba(33, 150, 243, 0.9);
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+}
+.item-hover:hover{
+    opacity: 1;
 }
